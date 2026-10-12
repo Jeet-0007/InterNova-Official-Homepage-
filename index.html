@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="InternNova - India's leading platform for virtual internships, skill-building workshops, and career mentorship. Launch your career with real-world experience in Web Development, Data Science, AI/ML, Cybersecurity and more.">
+  <meta name="keywords" content="InternNova, virtual internship, online internship, web development internship, data science internship, AI ML internship, career mentorship, skill development">
+  <meta name="author" content="Jeet Dey">
+  <title>InternNova — Launch Your Career with Real-World Internships</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- AOS (Animate on Scroll) - for scroll animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+
+  <!-- ======== PRELOADER ======== -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-logo">
+      <img src="assets/images/logo.jpg" alt="InternNova Logo">
+      <span class="preloader-text">InternNova</span>
+      <div class="preloader-bar">
+        <div class="preloader-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== NAVIGATION BAR ======== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <img src="assets/images/logo.jpg" alt="InternNova Logo">
+        <span class="nav-logo-text">InternNova</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#domains">Domains</a>
+        <a href="#workshops">Workshops</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+      </div>
+
+      <div class="nav-actions" id="navActions">
+        <a href="#" class="btn-nav-login">Log In</a>
+        <a href="#cta" class="btn-nav-cta">Apply Now</a>
+      </div>
+
+      <div class="nav-hamburger" id="navHamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======== HERO SECTION ======== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="assets/images/hero-bg.jpg" alt="Hero Background">
+    </div>
+
+    <!-- Floating Particles -->
+    <div class="hero-particles" id="heroParticles"></div>
+
+    <div class="container">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        Empowering Future Professionals Since 2023
+      </div>
+
+      <h1 class="hero-title">
+        Launch Your Career<br>
+        <span class="brand-text">with InternNova</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        India's most trusted platform for <strong>virtual internships</strong>, 
+        hands-on <strong>skill development</strong>, and expert <strong>mentorship</strong>.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#programs" class="btn-primary">
+          <i class="fas fa-rocket"></i> Explore Programs
+        </a>
+        <a href="#about" class="btn-secondary">
+          <i class="fas fa-play-circle"></i> Learn More
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-number" data-target="15000" data-suffix="+">0</div>
+          <div class="hero-stat-label">Students Trained</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-number" data-target="50" data-suffix="+">0</div>
+          <div class="hero-stat-label">Internship Domains</div>
+        </div>
+        <div class="hero-stat-divider"></div>
+        <div class="hero-stat">
+          <div class="hero-stat-number" data-target="95" data-suffix="%">0</div>
+          <div class="hero-stat-label">Satisfaction Rate</div>
+        </div>
+      </div>
+
+      <!-- Scrolling Ticker -->
+      <div class="ticker-wrapper">
+        <div class="ticker-track">
+          <div class="ticker-item"><i class="fas fa-certificate"></i> ISO Certified</div>
+          <div class="ticker-item"><i class="fas fa-laptop-code"></i> Web Development</div>
+          <div class="ticker-item"><i class="fas fa-brain"></i> AI & Machine Learning</div>
+          <div class="ticker-item"><i class="fas fa-shield-halved"></i> Cybersecurity</div>
+          <div class="ticker-item"><i class="fas fa-chart-bar"></i> Data Science</div>
+          <div class="ticker-item"><i class="fas fa-mobile-alt"></i> App Development</div>
+          <div class="ticker-item"><i class="fas fa-palette"></i> UI/UX Design</div>
+          <div class="ticker-item"><i class="fas fa-database"></i> Cloud Computing</div>
+          <div class="ticker-item"><i class="fas fa-bullhorn"></i> Digital Marketing</div>
+          <div class="ticker-item"><i class="fas fa-robot"></i> IoT & Embedded</div>
+          <!-- Duplicate for seamless scroll -->
+          <div class="ticker-item"><i class="fas fa-certificate"></i> ISO Certified</div>
+          <div class="ticker-item"><i class="fas fa-laptop-code"></i> Web Development</div>
+          <div class="ticker-item"><i class="fas fa-brain"></i> AI & Machine Learning</div>
+          <div class="ticker-item"><i class="fas fa-shield-halved"></i> Cybersecurity</div>
+          <div class="ticker-item"><i class="fas fa-chart-bar"></i> Data Science</div>
+          <div class="ticker-item"><i class="fas fa-mobile-alt"></i> App Development</div>
+          <div class="ticker-item"><i class="fas fa-palette"></i> UI/UX Design</div>
+          <div class="ticker-item"><i class="fas fa-database"></i> Cloud Computing</div>
+          <div class="ticker-item"><i class="fas fa-bullhorn"></i> Digital Marketing</div>
+          <div class="ticker-item"><i class="fas fa-robot"></i> IoT & Embedded</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== ABOUT SECTION ======== -->
+  <section class="section about" id="about">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content reveal-left">
+          <span class="section-label"><i class="fas fa-info-circle"></i> About Us</span>
+          <h2 class="section-title">Bridging the Gap Between<br><span class="text-gradient">Learning & Industry</span></h2>
+          <p class="about-text">
+            InternNova is India's leading virtual internship and skill development platform, 
+            dedicated to empowering students and aspiring professionals with real-world experience. 
+            We connect ambitious learners with industry-aligned projects, expert mentorship, and 
+            hands-on training to prepare them for successful careers.
+          </p>
+          <p class="about-text">
+            Our mission is to bridge the gap between academic knowledge and industry requirements 
+            by providing structured internship programs, live workshops, and personalized guidance 
+            across 50+ domains.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Industry Mentors</span>
+            </div>
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Verified Certificates</span>
+            </div>
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Real-World Projects</span>
+            </div>
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <span>Flexible Schedule</span>
+            </div>
+          </div>
+
+          <a href="#programs" class="btn-primary">
+            <i class="fas fa-arrow-right"></i> View Programs
+          </a>
+        </div>
+
+        <div class="about-visual reveal-right">
+          <div class="about-card-stack">
+            <div class="about-floating-card about-card-1">
+              <div class="about-card-icon purple"><i class="fas fa-graduation-cap"></i></div>
+              <h3 class="about-card-title">Structured Learning Path</h3>
+              <p class="about-card-desc">Follow a curated curriculum designed by industry experts to build job-ready skills step by step.</p>
+            </div>
+            <div class="about-floating-card about-card-2">
+              <div class="about-card-icon cyan"><i class="fas fa-code"></i></div>
+              <h3 class="about-card-title">Hands-On Projects</h3>
+              <p class="about-card-desc">Work on real-world projects that strengthen your portfolio and demonstrate practical expertise.</p>
+            </div>
+            <div class="about-floating-card about-card-3">
+              <div class="about-card-icon emerald"><i class="fas fa-certificate"></i></div>
+              <h3 class="about-card-title">Recognized Certifications</h3>
+              <p class="about-card-desc">Earn industry-recognized certificates to enhance your resume and validate your skills.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== INTERNSHIP PROGRAMS ======== -->
+  <section class="section programs" id="programs">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label"><i class="fas fa-briefcase"></i> Our Programs</span>
+        <h2 class="section-title">Internship Programs<br><span class="text-gradient">Designed for Success</span></h2>
+        <p class="section-subtitle">Choose from our range of carefully crafted internship programs, each designed to provide hands-on experience and accelerate your career growth.</p>
+      </div>
+
+      <div class="programs-grid">
+        <div class="program-card reveal" style="transition-delay: 0.1s;">
+          <span class="program-card-badge badge-basic">Starter</span>
+          <div class="program-icon" style="color: var(--accent-cyan);"><i class="fas fa-seedling"></i></div>
+          <h3 class="program-title">Foundation Internship</h3>
+          <p class="program-desc">Perfect for beginners looking to get started with industry experience. Includes guided projects and mentorship support.</p>
+          <div class="program-meta">
+            <span class="program-meta-item"><i class="fas fa-clock"></i> 4 Weeks</span>
+            <span class="program-meta-item"><i class="fas fa-tasks"></i> 3 Projects</span>
+            <span class="program-arrow"><i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="program-card reveal" style="transition-delay: 0.2s;">
+          <span class="program-card-badge badge-pro">Popular</span>
+          <div class="program-icon" style="color: var(--accent-violet);"><i class="fas fa-bolt"></i></div>
+          <h3 class="program-title">Professional Internship</h3>
+          <p class="program-desc">Intensive program with advanced projects, 1-on-1 mentorship, and industry-level certification for career advancement.</p>
+          <div class="program-meta">
+            <span class="program-meta-item"><i class="fas fa-clock"></i> 8 Weeks</span>
+            <span class="program-meta-item"><i class="fas fa-tasks"></i> 5 Projects</span>
+            <span class="program-arrow"><i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+
+        <div class="program-card reveal" style="transition-delay: 0.3s;">
+          <span class="program-card-badge badge-premium">Premium</span>
+          <div class="program-icon" style="color: var(--accent-amber);"><i class="fas fa-crown"></i></div>
+          <h3 class="program-title">Elite Career Program</h3>
+          <p class="program-desc">Our flagship program with exclusive access to industry leaders, advanced projects, letter of recommendation, and placement support.</p>
+          <div class="program-meta">
+            <span class="program-meta-item"><i class="fas fa-clock"></i> 12 Weeks</span>
+            <span class="program-meta-item"><i class="fas fa-tasks"></i> 8+ Projects</span>
+            <span class="program-arrow"><i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== INTERNSHIP DOMAINS ======== -->
+  <section class="section domains" id="domains">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label"><i class="fas fa-layer-group"></i> Explore Domains</span>
+        <h2 class="section-title">Internships Across<br><span class="text-gradient">50+ Industry Domains</span></h2>
+        <p class="section-subtitle">From cutting-edge tech to creative design, explore internship opportunities across a wide range of industry domains.</p>
+      </div>
+
+      <div class="domains-grid">
+        <div class="domain-card reveal" style="transition-delay: 0.05s;">
+          <div class="domain-icon web"><i class="fas fa-code"></i></div>
+          <span class="domain-name">Web Development</span>
+        </div>
+        <div class="domain-card reveal" style="transition-delay: 0.1s;">
+          <div class="domain-icon data"><i class="fas fa-chart-line"></i></div>
+          <span class="domain-name">Data Science</span>
+        </div>
+        <div class="domain-card reveal" style="transition-delay: 0.15s;">
+          <div class="domain-icon ai"><i class="fas fa-brain"></i></div>
+          <span class="domain-name">AI & ML</span>
+        </div>
+        <div class="domain-card reveal" style="transition-delay: 0.2s;">
+          <div class="domain-icon cyber"><i class="fas fa-shield-halved"></i></div>
+          <span class="domain-name">Cybersecurity</span>
+        </div>
+        <div class="domain-card reveal" style="transition-delay: 0.25s;">
+          <div class="domain-icon python"><i class="fab fa-python"></i></div>
+          <span class="domain-name">Python Programming</span>
+        </div>
+        <div class="domain-card reveal" style="transition-delay: 0.3s;">
+          <div class="domain-icon java"><i class="fab fa-java"></i></div>
+          <span class="domain-name">Java Development</span>
+        </div>
+        <div class="domain-card reveal" style="transition-delay: 0.35s;">
+          <div class="domain-icon marketing"><i class="fas fa-bullhorn"></i></div>
+          <span class="domain-name">Digital Marketing</span>
+        </div>
+        <div class="domain-card reveal" style="transition-delay: 0.4s;">
+          <div class="domain-icon hr"><i class="fas fa-users"></i></div>
+          <span class="domain-name">Human Resources</span>
+        </div>
+        <div class="domain-card reveal" style="transition-delay: 0.45s;">
+          <div class="domain-icon ev"><i class="fas fa-microchip"></i></div>
+          <span class="domain-name">Embedded Systems</span>
+        </div>
+        <div class="domain-card reveal" style="transition-delay: 0.5s;">
+          <div class="domain-icon cad"><i class="fas fa-drafting-compass"></i></div>
+          <span class="domain-name">AutoCAD Design</span>
+        </div>
+        <div class="domain-card reveal" style="transition-delay: 0.55s;">
+          <div class="domain-icon mechanical"><i class="fas fa-cogs"></i></div>
+          <span class="domain-name">Mechanical Eng.</span>
+        </div>
+        <div class="domain-card reveal" style="transition-delay: 0.6s;">
+          <div class="domain-icon plc"><i class="fas fa-plug"></i></div>
+          <span class="domain-name">PLC & SCADA</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== WHY CHOOSE US ======== -->
+  <section class="section why-choose" id="why-choose">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label"><i class="fas fa-star"></i> Why InternNova</span>
+        <h2 class="section-title">Why Thousands of Students<br><span class="text-gradient">Choose InternNova</span></h2>
+        <p class="section-subtitle">We don't just offer internships — we deliver complete career transformation with proven results.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card reveal" style="transition-delay: 0.1s;">
+          <div class="why-card-icon icon-1"><i class="fas fa-user-tie"></i></div>
+          <div class="why-card-content">
+            <h3>Industry Expert Mentors</h3>
+            <p>Learn directly from experienced professionals working at top companies who guide you through real-world challenges.</p>
+          </div>
+        </div>
+
+        <div class="why-card reveal" style="transition-delay: 0.15s;">
+          <div class="why-card-icon icon-2"><i class="fas fa-certificate"></i></div>
+          <div class="why-card-content">
+            <h3>Verified Certifications</h3>
+            <p>Receive industry-recognized certificates with unique verification codes to validate your skills and achievements.</p>
+          </div>
+        </div>
+
+        <div class="why-card reveal" style="transition-delay: 0.2s;">
+          <div class="why-card-icon icon-3"><i class="fas fa-laptop-code"></i></div>
+          <div class="why-card-content">
+            <h3>Hands-On Project Work</h3>
+            <p>Build real-world projects to strengthen your portfolio and gain practical experience that employers value.</p>
+          </div>
+        </div>
+
+        <div class="why-card reveal" style="transition-delay: 0.25s;">
+          <div class="why-card-icon icon-4"><i class="fas fa-clock"></i></div>
+          <div class="why-card-content">
+            <h3>Flexible Learning Schedule</h3>
+            <p>Learn at your own pace with flexible schedules designed for students balancing academics and skill development.</p>
+          </div>
+        </div>
+
+        <div class="why-card reveal" style="transition-delay: 0.3s;">
+          <div class="why-card-icon icon-5"><i class="fas fa-file-alt"></i></div>
+          <div class="why-card-content">
+            <h3>Letter of Recommendation</h3>
+            <p>Outstanding interns receive personalized letters of recommendation from industry mentors for career advancement.</p>
+          </div>
+        </div>
+
+        <div class="why-card reveal" style="transition-delay: 0.35s;">
+          <div class="why-card-icon icon-6"><i class="fas fa-headset"></i></div>
+          <div class="why-card-content">
+            <h3>24/7 Support & Community</h3>
+            <p>Access dedicated support and join a thriving community of learners and professionals for networking and growth.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== LEARNING & MENTORSHIP ======== -->
+  <section class="section mentorship" id="mentorship">
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="container">
+      <div class="mentorship-grid">
+        <div class="mentorship-visual reveal-left">
+          <div class="mentorship-image-card">
+            <div class="mentorship-stats-row">
+              <div class="mentorship-stat-card">
+                <i class="fas fa-chalkboard-teacher" style="color: var(--primary-400);"></i>
+                <span class="stat-value">200+</span>
+                <span class="stat-label">Expert Mentors</span>
+              </div>
+              <div class="mentorship-stat-card">
+                <i class="fas fa-book-open" style="color: var(--accent-cyan);"></i>
+                <span class="stat-value">500+</span>
+                <span class="stat-label">Learning Hours</span>
+              </div>
+              <div class="mentorship-stat-card">
+                <i class="fas fa-trophy" style="color: var(--accent-amber);"></i>
+                <span class="stat-value">95%</span>
+                <span class="stat-label">Success Rate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-content reveal-right">
+          <span class="section-label"><i class="fas fa-lightbulb"></i> Learning Path</span>
+          <h2 class="section-title">Your Journey from<br><span class="text-gradient">Learner to Professional</span></h2>
+
+          <div class="mentorship-steps">
+            <div class="mentorship-step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h3>Enroll & Get Matched</h3>
+                <p>Choose your domain, get matched with an expert mentor, and receive your personalized learning roadmap.</p>
+              </div>
+            </div>
+
+            <div class="mentorship-step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h3>Learn & Build Projects</h3>
+                <p>Follow structured modules, attend live sessions, and build real-world projects with mentorship support.</p>
+              </div>
+            </div>
+
+            <div class="mentorship-step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h3>Get Evaluated & Certified</h3>
+                <p>Submit your projects for review, receive detailed feedback, and earn your verified certification.</p>
+              </div>
+            </div>
+
+            <div class="mentorship-step">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h3>Launch Your Career</h3>
+                <p>Showcase your portfolio, get recommendation letters, and connect with industry opportunities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== WORKSHOPS ======== -->
+  <section class="section workshops" id="workshops">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label"><i class="fas fa-chalkboard"></i> Live Workshops</span>
+        <h2 class="section-title">Skill-Building<br><span class="text-gradient">Live Workshops</span></h2>
+        <p class="section-subtitle">Join our expert-led live workshops to master in-demand skills with hands-on practice and real-time interaction.</p>
+      </div>
+
+      <div class="workshops-grid">
+        <div class="workshop-card reveal" style="transition-delay: 0.1s;">
+          <span class="workshop-badge"><i class="fas fa-bolt"></i> Trending</span>
+          <div class="workshop-icon"><i class="fas fa-code"></i></div>
+          <h3 class="workshop-title">Full-Stack Web Development Bootcamp</h3>
+          <p class="workshop-desc">Master HTML, CSS, JavaScript, React, Node.js, and MongoDB in this comprehensive bootcamp with live coding sessions.</p>
+          <div class="workshop-price">
+            <span class="current">₹499</span>
+            <span class="original">₹1,999</span>
+          </div>
+          <a href="#" class="btn-workshop">
+            Enroll Now <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="workshop-card reveal" style="transition-delay: 0.2s;">
+          <span class="workshop-badge"><i class="fas fa-fire"></i> Hot</span>
+          <div class="workshop-icon" style="color: var(--accent-violet); background: rgba(139, 92, 246, 0.12);"><i class="fas fa-brain"></i></div>
+          <h3 class="workshop-title">AI & Machine Learning Masterclass</h3>
+          <p class="workshop-desc">Learn Python, TensorFlow, neural networks, and build AI models with guided projects and expert mentorship.</p>
+          <div class="workshop-price">
+            <span class="current">₹699</span>
+            <span class="original">₹2,499</span>
+          </div>
+          <a href="#" class="btn-workshop">
+            Enroll Now <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="workshop-card reveal" style="transition-delay: 0.3s;">
+          <span class="workshop-badge"><i class="fas fa-shield-halved"></i> New</span>
+          <div class="workshop-icon" style="color: var(--accent-rose); background: rgba(244, 63, 94, 0.12);"><i class="fas fa-lock"></i></div>
+          <h3 class="workshop-title">Ethical Hacking & Cybersecurity</h3>
+          <p class="workshop-desc">Master penetration testing, network security, OWASP vulnerabilities, and cybersecurity best practices.</p>
+          <div class="workshop-price">
+            <span class="current">₹599</span>
+            <span class="original">₹2,199</span>
+          </div>
+          <a href="#" class="btn-workshop">
+            Enroll Now <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== TESTIMONIALS ======== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label"><i class="fas fa-quote-left"></i> Testimonials</span>
+        <h2 class="section-title">What Our Interns<br><span class="text-gradient">Say About Us</span></h2>
+        <p class="section-subtitle">Hear from thousands of students who have transformed their careers through InternNova's programs.</p>
+      </div>
+
+      <div class="testimonials-rating reveal">
+        <div class="rating-stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <span class="rating-text">4.8/5</span>
+        <span class="rating-count">based on 2,500+ reviews</span>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal" style="transition-delay: 0.1s;">
+          <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testimonial-text">"InternNova's web development program was a game-changer for me. The mentorship and project-based approach helped me land my first freelance client before the internship even ended!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar avatar-1">A</div>
+            <div class="testimonial-author-info">
+              <h4>Arjun Mehta</h4>
+              <span>Web Development Intern</span>
+            </div>
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" style="transition-delay: 0.2s;">
+          <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testimonial-text">"The AI/ML workshop was incredibly well-structured. The hands-on projects and mentor support gave me confidence to build my own machine learning models. Highly recommended!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar avatar-2">P</div>
+            <div class="testimonial-author-info">
+              <h4>Priya Sharma</h4>
+              <span>AI & ML Intern</span>
+            </div>
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" style="transition-delay: 0.3s;">
+          <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testimonial-text">"InternNova's certification helped me stand out during campus placements. The letter of recommendation from my mentor was the key highlight on my resume."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar avatar-3">R</div>
+            <div class="testimonial-author-info">
+              <h4>Rahul Patel</h4>
+              <span>Data Science Intern</span>
+            </div>
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" style="transition-delay: 0.35s;">
+          <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testimonial-text">"As a non-tech student, I was nervous about cybersecurity. But InternNova's step-by-step approach and patient mentors made the learning experience enjoyable and impactful."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar avatar-4">S</div>
+            <div class="testimonial-author-info">
+              <h4>Sneha Reddy</h4>
+              <span>Cybersecurity Intern</span>
+            </div>
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" style="transition-delay: 0.4s;">
+          <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testimonial-text">"The flexible schedule allowed me to balance my college studies and internship seamlessly. The projects I built are now showcased in my portfolio and helped me crack interviews."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar avatar-5">K</div>
+            <div class="testimonial-author-info">
+              <h4>Karthik Nair</h4>
+              <span>Python Intern</span>
+            </div>
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal" style="transition-delay: 0.45s;">
+          <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+          <p class="testimonial-text">"I joined InternNova for digital marketing and the experience was fantastic. Real campaign projects, analytics tools, and marketing strategy sessions — it was like working at an agency!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar avatar-6">D</div>
+            <div class="testimonial-author-info">
+              <h4>Divya Joshi</h4>
+              <span>Digital Marketing Intern</span>
+            </div>
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== STATISTICS / ACHIEVEMENTS ======== -->
+  <section class="section stats" id="stats">
+    <div class="glow-orb glow-orb-3"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label"><i class="fas fa-chart-bar"></i> Our Impact</span>
+        <h2 class="section-title">Numbers That Speak<br><span class="text-gradient">For Themselves</span></h2>
+        <p class="section-subtitle">Our growing community of learners and industry partnerships reflect the trust placed in InternNova.</p>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card reveal" style="transition-delay: 0.1s;">
+          <div class="stat-icon s1"><i class="fas fa-users"></i></div>
+          <div class="stat-number" data-target="15000" data-suffix="+">0</div>
+          <div class="stat-label">Students Trained</div>
+        </div>
+        <div class="stat-card reveal" style="transition-delay: 0.2s;">
+          <div class="stat-icon s2"><i class="fas fa-project-diagram"></i></div>
+          <div class="stat-number" data-target="5000" data-suffix="+">0</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat-card reveal" style="transition-delay: 0.3s;">
+          <div class="stat-icon s3"><i class="fas fa-certificate"></i></div>
+          <div class="stat-number" data-target="12000" data-suffix="+">0</div>
+          <div class="stat-label">Certificates Awarded</div>
+        </div>
+        <div class="stat-card reveal" style="transition-delay: 0.4s;">
+          <div class="stat-icon s4"><i class="fas fa-globe-americas"></i></div>
+          <div class="stat-number" data-target="50" data-suffix="+">0</div>
+          <div class="stat-label">Internship Domains</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FAQ ======== -->
+  <section class="section faq" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label"><i class="fas fa-question-circle"></i> FAQ</span>
+        <h2 class="section-title">Frequently Asked<br><span class="text-gradient">Questions</span></h2>
+        <p class="section-subtitle">Got questions? We've got answers. Find everything you need to know about InternNova's programs.</p>
+      </div>
+
+      <div class="faq-container">
+        <div class="faq-item active reveal" style="transition-delay: 0.1s;">
+          <button class="faq-question">
+            <h3>What is InternNova and what do you offer?</h3>
+            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+          </button>
+          <div class="faq-answer" style="max-height: 200px;">
+            <div class="faq-answer-content">
+              InternNova is India's leading virtual internship and skill development platform. We offer structured internship programs across 50+ domains including Web Development, Data Science, AI/ML, Cybersecurity, Digital Marketing, and more. Each program includes expert mentorship, hands-on projects, and industry-recognized certifications.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal" style="transition-delay: 0.15s;">
+          <button class="faq-question">
+            <h3>Are the internships virtual or in-office?</h3>
+            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              All InternNova internships are 100% virtual/remote. You can participate from anywhere in India with a stable internet connection. Our flexible schedule allows you to learn at your own pace while balancing your academic commitments.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal" style="transition-delay: 0.2s;">
+          <button class="faq-question">
+            <h3>Do I need prior experience to join?</h3>
+            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              No prior experience is required for our Foundation programs. We offer beginner-friendly courses that start from the basics. However, for Professional and Elite programs, some foundational knowledge in your chosen domain is recommended.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal" style="transition-delay: 0.25s;">
+          <button class="faq-question">
+            <h3>How are the certificates verified?</h3>
+            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Each certificate comes with a unique verification code and QR code. Employers and institutions can verify your certificate authenticity through our online verification portal. Our certificates are industry-recognized and accepted across organizations.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal" style="transition-delay: 0.3s;">
+          <button class="faq-question">
+            <h3>What is the duration and fee structure?</h3>
+            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Our programs range from 4 weeks (Foundation) to 12 weeks (Elite). We offer affordable pricing starting from ₹499 for workshops and competitive rates for internship programs. We also offer early-bird discounts and scholarship opportunities for deserving students.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item reveal" style="transition-delay: 0.35s;">
+          <button class="faq-question">
+            <h3>Can I get a Letter of Recommendation?</h3>
+            <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Yes! Outstanding interns who complete their projects with distinction are eligible for a personalized Letter of Recommendation from their mentors. This LOR can significantly boost your resume for job applications and higher education admissions.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CALL TO ACTION ======== -->
+  <section class="section cta" id="cta">
+    <div class="cta-background"></div>
+    <div class="container">
+      <h2 class="cta-title reveal">
+        Ready to Launch<br>
+        <span class="text-gradient-accent">Your Career?</span>
+      </h2>
+      <p class="cta-subtitle reveal" style="transition-delay: 0.1s;">
+        Join 15,000+ students who have already transformed their careers with InternNova. 
+        Your journey to becoming an industry-ready professional starts here.
+      </p>
+      <div class="cta-buttons reveal" style="transition-delay: 0.2s;">
+        <a href="#" class="btn-primary">
+          <i class="fas fa-rocket"></i> Apply for Internship
+        </a>
+        <a href="#" class="btn-secondary">
+          <i class="fas fa-phone-alt"></i> Contact Us
+        </a>
+      </div>
+      <div class="cta-trust reveal" style="transition-delay: 0.3s;">
+        <span class="cta-trust-item"><i class="fas fa-check-circle"></i> No Hidden Fees</span>
+        <span class="cta-trust-item"><i class="fas fa-check-circle"></i> Verified Certificates</span>
+        <span class="cta-trust-item"><i class="fas fa-check-circle"></i> Expert Mentorship</span>
+        <span class="cta-trust-item"><i class="fas fa-check-circle"></i> 24/7 Support</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/images/logo.jpg" alt="InternNova Logo">
+            <span class="footer-logo-text">InternNova</span>
+          </div>
+          <p>Empowering students and aspiring professionals with real-world internship experience, industry mentorship, and career-ready skills since 2023.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/internnova.co.in/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/internnova/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#domains">Domains</a></li>
+            <li><a href="#workshops">Workshops</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Data Science</a></li>
+            <li><a href="#">AI & ML</a></li>
+            <li><a href="#">Cybersecurity</a></li>
+            <li><a href="#">Digital Marketing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <div class="footer-contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>contact@internnova.co.in</span>
+              </div>
+            </li>
+            <li>
+              <div class="footer-contact-item">
+                <i class="fas fa-globe"></i>
+                <span>www.internnova.co.in</span>
+              </div>
+            </li>
+            <li>
+              <div class="footer-contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>India (Remote-First)</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 InternNova. All rights reserved. | Designed by Jeet Dey</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Refund Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======== SCROLL TO TOP ======== -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
